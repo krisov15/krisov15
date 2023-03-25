@@ -1,1 +1,33 @@
-
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 18px;
+    margin: 30px 0px;
+}
+a {
+    background-color: #FF6861;
+    border-radius: 100px;
+    color: white;
+    padding: 22px 70px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    width: 219px;
+    font-weight: 700;
+}
+div {
+    width: 465px;
+    margin-right: 180px;
+}
